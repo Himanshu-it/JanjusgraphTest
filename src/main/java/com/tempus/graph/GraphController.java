@@ -72,7 +72,11 @@ public class GraphController {
         List<Facility> facilityList = janusGraphApis.getAllfacilities(graph);
         for (Facility facility : facilityList) {
             logger.info("Facility : " + facility);
-            janusGraphApis.getAllAssets(graph,facility.getFacilityId());
+            List<Asset> assetList = janusGraphApis.getAllAssets(graph,facility.getFacilityId());
+            for (Asset asset : assetList
+                 ) {
+                System.out.println("Retrieved assets  : " + asset.getAssetId());
+            }
         }
     }
 
