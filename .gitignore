@@ -1,0 +1,17 @@
+*.DS_Store
+*.log
+*.zip
+*.iml
+target/
+.idea
+.sass-cache/
+/nbproject/
+/nbproject/private/
+/node_modules/
+ad.js
+TODO
+test.html
+/bin/
+RUNNING_PID
+release/
+package-lock.json
