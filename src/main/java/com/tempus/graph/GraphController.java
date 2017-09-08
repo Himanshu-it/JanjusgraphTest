@@ -85,7 +85,7 @@ public class GraphController {
         // Add Facility
         // Add Asset
         // Traverse graph
-        JanusGraph graph = JanusGraphFactory.open("/home/jkapadnis/himanshu/janusgraph-0.1.1-hadoop2/conf/janusgraph-hbase.properties");
+        JanusGraph graph = JanusGraphFactory.open("/home/jkapadnis/himanshu/janusgraph-0.1.1-hadoop2/conf/janusgraph-hbase-solr.properties");
         GraphController graphController = new GraphController();
         JanusGraphApis janusGraphApis = new JanusGraphApis();
         //if(graphController.IsSchemaCreationNeeded()){
