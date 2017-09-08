@@ -137,7 +137,7 @@ public class JanusGraphApis {
         GraphTraversalSource tr = graph.traversal();
         GraphTraversal<Vertex,List<Vertex>> x = tr.V().has("facilityID",facilityId).in("presentIn").fold();
 
-        List<Vertex> vertexList=x.next();
+        /*List<Vertex> vertexList=x.next();
         for (Vertex vertex : vertexList
              ) {
             Asset asset = new Asset();
@@ -157,7 +157,7 @@ public class JanusGraphApis {
             asset.setAssetParent(assetParent.toString());
 
             assetList.add(asset);
-        }
+        }*/
         return assetList;
     }
 
