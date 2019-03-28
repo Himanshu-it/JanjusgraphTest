@@ -24,7 +24,7 @@ import org.json.*;
 import static org.apache.http.protocol.HTTP.USER_AGENT;
 
 /**
- * Program does Hello world!
+ * Program does Hello world! for demo purpose
  *
  */
 public class App 
