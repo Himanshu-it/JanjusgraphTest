@@ -43,7 +43,7 @@
             <name>HDP Public</name>
             <url>  http://repo.hortonworks.com/content/groups/public/</url>
             <layout>default</layout>
-        </repository>
+        </repository>   
 
     </repositories>
     <properties>
